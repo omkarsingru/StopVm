@@ -1,0 +1,42 @@
+---
+name: "StopVm1234"
+runner_type: "python-script"
+description: "Print message to standard output."
+enabled: true
+entry_point: "my_echo_action.py"
+parameters:
+    SUBSCRIPTION_ID:
+        type: "string"
+        description: "SUBSCRIPTION_ID to print."
+        required: true
+        position: 0
+    GROUP_NAME:
+        type: "string"
+        description: "GROUP_NAME to print."
+        required: true
+        position: 1
+    LOCATION:
+        type: "string"
+        description: "LOCATION to print."
+        required: true
+        position: 2
+    VM_NAME:
+        type: "string"
+        description: "VM_NAME to print."
+        required: true
+        position: 3
+    client_id:
+        type: "string"
+        description: "client_id to print."
+        required: true
+        position: 4
+    secret:
+        type: "string"
+        description: " secret to print."
+        required: true
+        position: 5
+    tenant:
+        type: "string"
+        description: "tenant to print."
+        required: true
+        position: 6
