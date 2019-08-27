@@ -3,7 +3,7 @@ name: "StopVm1234"
 runner_type: "python-script"
 description: "Print message to standard output."
 enabled: true
-entry_point: "my_echo_action.py"
+entry_point: "action.py"
 parameters:
     SUBSCRIPTION_ID:
         type: "string"
