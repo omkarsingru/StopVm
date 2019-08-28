@@ -1,5 +1,6 @@
 ---
 name: "StopVm1234"
+pack:  StopVm
 runner_type: "python-script"
 description: "Print message to standard output."
 enabled: true
